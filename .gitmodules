@@ -1,0 +1,3 @@
+[submodule "phppgadmin"]
+	path = phppgadmin
+	url = git@github.com:phppgadmin/phppgadmin.git

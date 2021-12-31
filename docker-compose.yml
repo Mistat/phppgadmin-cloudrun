@@ -1,0 +1,10 @@
+version: '3'
+services:
+  phppgadmin:
+    env_file:
+      - .env
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./credentials/:/credentials"
